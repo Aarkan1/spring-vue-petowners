@@ -1,0 +1,109 @@
+/* 
+  Nu är det dags att snygga till sidan lite.
+  Mest för att det sticker i ögonen lite...
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-image: linear-gradient(rgb(255, 128, 82), rgb(172, 86, 55));
+
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #eee;
+  padding: 0 10px;
+}
+
+main {
+  padding: 15px;
+  padding-top: 30px;
+}
+
+ul {
+  padding: 0;
+}
+
+.pet-card {
+  list-style: none;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+button {
+  background-color: rgb(109, 172, 184);
+  color: #eee;
+  font-weight: 700;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+  background-color: rgb(93, 142, 151);
+}
+
+select {
+  border: none;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+/* mycket jobb att styla dropdown items... */
+select:focus, option {
+  outline: none;
+}
+
+.owner h3, .owner h4 {
+  margin: 0;
+}
+
+.owner {
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.authenticate-text {
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-weight: 700; 
+}
